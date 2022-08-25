@@ -2,6 +2,7 @@
   <div class="nav-bar">
     <div class="nav-bar__container">
       <h1 class="nav-bar__title">Добавление товара</h1>
+      <Select />
     </div>
   </div>
 </template>
@@ -12,6 +13,12 @@
 
 <style lang="scss">
 @use './style' as colors;
+
+.nav-bar__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .nav-bar__title {
   font-family: 'Source Sans Pro';
