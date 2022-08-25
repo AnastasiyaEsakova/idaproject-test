@@ -29,9 +29,6 @@
 <style lang="scss">
 @use './style' as colors;
 
-.form {
-}
-
 .form__container {
   padding: 24px;
   display: flex;
@@ -82,7 +79,7 @@
     position: absolute;
     top: 0;
     right: -6px;
-    background: #FF8484;
+    background: colors.$red01;
     border-radius: 4px;
   }
 }
