@@ -20,7 +20,7 @@
   background: colors.$background;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
-  width: 122px;
+  width: max-content;
   height: 36px;
   box-sizing: border-box;
   display: flex;
@@ -29,7 +29,7 @@
 }
 
 .select {
-  width: 104px;
+  width: max-content;
   height: 15px;
   border: none;
   font-family: 'Source Sans Pro';
