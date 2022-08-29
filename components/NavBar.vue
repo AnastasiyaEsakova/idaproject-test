@@ -30,4 +30,17 @@
 
 }
 
+@media screen and (max-width: 600px){
+  .nav-bar__container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .nav-bar__title {
+    font-weight: 600;
+    font-size: 20px;
+  }
+}
+
 </style>

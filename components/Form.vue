@@ -18,6 +18,7 @@
 @use './style' as colors;
 
 .form__container {
+  margin: 0 auto;
   padding: 24px;
   display: flex;
   flex-direction: column;
@@ -33,7 +34,7 @@
 .form__button {
   background: colors.$gray03;
   border-radius: 10px;
-  width: 284px;
+  width: 100%;
   height: 36px;
   border: none;
   font-family: 'Inter';
