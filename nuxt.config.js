@@ -1,3 +1,5 @@
+import { resolve } from 'path';
+
 export default {
   ssr: false,
   head: {
@@ -14,6 +16,10 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
+  },
+  alias: {
+    './style': resolve(__dirname, './assets/color.scss'),
+    './fonts': resolve(__dirname, './fonts/fonts.scss')
   },
   css: [
   ],
